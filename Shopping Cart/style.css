@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+.navbar-dark .navbar-brand{
+    color:green;
+    font-size: 25px;
+}
+.carousel-inner{
+    height: 500px;
+}
+.card-img{
+    height:80%;
+    width:150px
+}
+.card-header{
+    background-color: #353a40;
+    color:white
+}
+.shoppingcart{
+    height: 25px;
+    width: 25px;
+    fill:white
+}
+.crosslogo{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+.heartlogo{
+    height: 20px;
+    width: 20px;
+}
+.likebuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:10%}
+.row-no-gutters{
+    display: flex;
+}
+.minusbutton{
+    height:25px;
+    width:25px;
+    fill:green;
+    margin:0 10px
+}
+.plusbutton{
+    height:25px;
+    width:25px;
+    margin:0 10px
+}
+.col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:15%
+}
+.col{
+    width:30%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.card-body{
+    width:300px
+}
+.addtocart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.addtocart p{
+    margin-bottom: 0;
+}
